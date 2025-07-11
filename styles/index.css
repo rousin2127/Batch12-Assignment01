@@ -35,15 +35,15 @@ a{
 /* Header style  */
 body{
     background-color: #f5f8ff;
+    
 }
 
 header{
     background-image: url('../Assets/Hero-bg.png');
     background-repeat:no-repeat;
     background-position: center;
-    padding: 1px
-    
-    
+    padding: 1px 
+    /* max-width: 1440px; */
 }
 nav{
     max-width: 1140px;
@@ -147,6 +147,9 @@ main{
 /* Users reviewe */
 .users-reviewe-title{
     text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
 }
 .users-reviewers{
     display: flex;
@@ -167,12 +170,12 @@ main{
     /* justify-content: center; */
 }
 .avatar img{
-    width: 40px;
-    height: 40px;
+    width:50px;
+    height:50px;
     border-radius: 50%;
 }
 .avatar-descriptipn{
-    margin: 0px 10px;
+    margin: 0px 20px;
     padding: 5px 5px;
     color: rgba(30, 30, 30, 1);
 }
@@ -187,4 +190,42 @@ main{
     margin-top: 0;
     /* margin-bottom: 0; */
     color: rgba(179, 179, 179, 1);
+}
+
+/* Template stule */
+.template{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 70px;
+
+}
+.template img{
+    border-radius: 20px;
+}
+
+.template-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0;
+}
+.template-sub-title{
+    font-size: 16px;
+    font-weight: 0px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+
+.btn-template{
+    font-weight: 0px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    /* font-weight: bold; */
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }

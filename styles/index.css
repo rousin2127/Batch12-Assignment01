@@ -31,6 +31,12 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{   
+    color: #252432;
+}
+.btn-primary:hover{
+    background-color:rgba(78, 71, 255, 0.1) ;
+}
 
 /* Header style  */
 body{
@@ -229,6 +235,9 @@ main{
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.btn-template:hover{
+    background-color: rgba(78, 71, 255, 0.1) ;
+}
 
 /* form style */
 .form-container{
@@ -277,6 +286,9 @@ form textarea{
     width: 480px;
     cursor: pointer;
 
+}
+.btn-form:hover {
+    color: black;
 }
 
 /* footer style */
